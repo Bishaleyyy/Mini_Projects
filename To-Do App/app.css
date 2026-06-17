@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#heading{
+    color: white;
+}
+#inp{
+    height: 30px;
+    width: 300px;
+
+
+}
+#input{
+    display: flex;
+}
+#btn{
+    background-color: #f8f9fa; 
+    color: black;
+    border: 1px solid #ccc;
+    
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+#btn:hover{
+    background-color: #3b3c3c; 
+}
