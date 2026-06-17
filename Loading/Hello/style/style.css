@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.loading {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+        box-shadow: 1px 5px 2px red;
+    }
+    50% {
+        transform: rotate(180deg);
+        box-shadow: 1px 5px 2px rgb(68, 0, 255);
+    }
+    100% {
+        transform: rotate(360deg);
+        box-shadow: 1px 5px 2px rgb(26, 255, 0);
+    }
+}
